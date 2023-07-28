@@ -10,12 +10,12 @@ const difficultySelect = document.getElementById('difficultyy')
 
 //list of random words
 const words = [
-    'and',
+   'television',
     'because',
-    'one',
-    'two',
-    'four',
-    'five',
+    'spiderman',
+    'batman',
+    'weather',
+    'rain',
     'mouse',
     'keyboard',
     'monitor',

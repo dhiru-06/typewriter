@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css"/>
+</head>
+<body>
+    <div class="game_container">
+        <form id="settings-form">
+            <div>
+                <label for="difficulty">Difficulty</label>
+                <select id="difficultyy">
+                    <option value="easy">easy</option>
+                    <option value="medium">medium</option>
+                    <option value="hard">hard</option>
+                </select>
+            </div>
+        </form>
+    
+        <div class="container" id="container">
+            <p>Typing Game</p>
+
+            <p>Type the following</p>
+            <h1 id="word"></h1>
+            
+            <input type="text" autocomplete="off" id="text" autofocus placeholder="type here">
+
+            <p id="time_container">Time left: <span id="time">10s</span></p>
+
+            <p id="score_container">Score: <span id="score">0</span></p>
+
+        </div>
+        <div id="end-game-container" class="end-game-container"></div>
+    </div>
+    
+    <script src="./script.js"></script>
+</body>
+</html>
